@@ -82,7 +82,7 @@ require([
       featureLayer.renderer = {
       type: "simple",  // autocasts as new SimpleRenderer()
       symbol: {
-        type: "simple-point",  // autocasts as new SimpleMarkerSymbol()
+        type: "simple-line",  // autocasts as new SimpleMarkerSymbol()
         size: 10,
         color: "red",
         outline: {  // autocasts as new SimpleLineSymbol()
